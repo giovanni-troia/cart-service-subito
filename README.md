@@ -55,7 +55,7 @@ Prerequisites:
 
 Start the service + PostgreSQL:
 
-    ./scripts/run.sh
+    ./script/run.sh
 
 Stop everything:
 
@@ -69,21 +69,9 @@ Logs:
 
 ## Running tests
 
-### Run tests locally
+### Run tests locally with Docker
 
-    mvn test
-
-### Run tests in Docker container (as required by the assignment)
-
-    ./scripts/tests.sh
-
-### (Optional) Run integration tests with Testcontainers
-
-If enabled, integration tests will start a real PostgreSQL container automatically:
-
-    mvn test
-
-(You can also isolate them via Maven profiles if you prefer.)
+    ./script/tests.sh
 
 ---
 
