@@ -1,4 +1,4 @@
-package it.subito.cart.config.config;
+package it.subito.cart.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -21,11 +21,8 @@ public class OpenApiConfig {
                 .version("1.0.0")
                 .description("REST API for creating and managing orders with pricing and VAT calculations")
                 .contact(new Contact()
-                    .name("API Support")
-                    .email("support@example.com"))
-                .license(new License()
-                    .name("Apache 2.0")
-                    .url("https://www.apache.org/licenses/LICENSE-2.0.html")));
+                    .name("Application Author")
+                    .email("giovannitroia1996@gmail.com")));
     }
 }
 
